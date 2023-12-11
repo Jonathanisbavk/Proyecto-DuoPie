@@ -189,7 +189,7 @@ public class AA2 extends javax.swing.JFrame {
         jPanel1.add(txtDedicatoria, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 440, 290, -1));
 
         fondo.setBackground(new java.awt.Color(255, 255, 255));
-        fondo.setIcon(new javax.swing.ImageIcon("D:\\1. Universidad\\2023\\2023 - B\\Algortimos Para la Solución de Problemas\\Actividad 2\\AA2\\src\\main\\java\\AA2\\imagenes\\Fondo.jpg")); // NOI18N
+        fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AA2/Fondo.jpg"))); // NOI18N
         jPanel1.add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 640));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
