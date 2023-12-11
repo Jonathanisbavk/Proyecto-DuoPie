@@ -75,5 +75,20 @@ public class PedidoTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
+
+    /**
+     * Test of obtenernombredecliente method, of class Pedido.
+     */
+    @Test
+    public void testObtenernombredecliente() {
+        System.out.println("obtenernombredecliente");
+        Cliente cliente = null;
+        Pedido instance = new Pedido();
+        String expResult = "";
+        String result = instance.obtenernombredecliente(cliente);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
     
 }
